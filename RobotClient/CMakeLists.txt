@@ -1,0 +1,22 @@
+add_definitions("-DDLL_EXPORT")
+include_directories(. ../RobotStructure ../RobotInterpreter)
+IF (WIN32)
+    MESSAGE(STATUS "Now is windows")
+    include_directories(../SystemLayer/WindowsAPI)
+ELSEIF (APPLE)
+    MESSAGE(STATUS "Now is Apple systens.")
+ELSEIF (UNIX)
+    MESSAGE(STATUS "Now is UNIX-like OS's.")
+    include_directories(../SystemLayer/LinuxAPI)
+ENDIF ()
+
+aux_source_directory(src DIR_ROBOTCLIENT_SRCS)
+
+add_library(RobotClient  ${DIR_ROBOTCLIENT_SRCS})
+
+#find_package(LibXml2 REQUIRED)
+#include_directories(${LIBXML2_INCLUDE_DIR})
+#add_library(RobotClient SHARED ${DIR_ROBOTCLIENT_SRCS})
+#target_link_libraries(RobotClient RobotInterpreter)
+#target_link_libraries(RobotClient RobotStructure)
+#target_link_libraries(RobotClient SystemAPI)
