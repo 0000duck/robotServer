@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot_preference>
+  <m_initJointPosition>
+    <JOINT1>0</JOINT1>
+    <JOINT2>0</JOINT2>
+    <JOINT3>0</JOINT3>
+    <JOINT4>0</JOINT4>
+    <JOINT5>0</JOINT5>
+    <JOINT6>0</JOINT6>
+  </m_initJointPosition>
+  <m_jointCompensation>
+    <JOINT1>0</JOINT1>
+    <JOINT2>0</JOINT2>
+    <JOINT3>0</JOINT3>
+    <JOINT4>0</JOINT4>
+    <JOINT5>0</JOINT5>
+    <JOINT6>0</JOINT6>
+  </m_jointCompensation>
+  <m_jointReturnSequence>
+    <JOINT1>0</JOINT1>
+    <JOINT2>0</JOINT2>
+    <JOINT3>0</JOINT3>
+    <JOINT4>0</JOINT4>
+    <JOINT5>0</JOINT5>
+    <JOINT6>0</JOINT6>
+  </m_jointReturnSequence>
+</robot_preference>

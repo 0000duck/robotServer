@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot_frame>
+  <m_currentToolFrame>default</m_currentToolFrame>
+  <m_currentWorkFrame>default</m_currentWorkFrame>
+  <m_toolFrameList>
+    <default>
+      <TERMINALX>0</TERMINALX>
+      <TERMINALY>0</TERMINALY>
+      <TERMINALZ>0</TERMINALZ>
+      <TERMINALA>180</TERMINALA>
+      <TERMINALB>0</TERMINALB>
+      <TERMINALC>180</TERMINALC>
+    </default>
+  </m_toolFrameList>
+  <m_workFrameList>
+    <default>
+      <TERMINALX>0</TERMINALX>
+      <TERMINALY>0</TERMINALY>
+      <TERMINALZ>0</TERMINALZ>
+      <TERMINALA>180</TERMINALA>
+      <TERMINALB>0</TERMINALB>
+      <TERMINALC>180</TERMINALC>
+    </default>
+  </m_workFrameList>
+</robot_frame>
